@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <style>
+        .form-box{
+         /*background-color: rgba(128, 128, 128, 0.433);*/
+         background-image: url("https://img.lovepik.com/element/45010/2227.png_860.png");
+         margin:20px;
+                 }
+.input{
+    padding: 12px ;
+    margin: 20px;
+    background-color: white;
+    opacity: 0.5;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-sizing: border-box;
+    }
+</style>
+</head>
+<body>
+    <form action="signin.php" method="post" class="form-box">
+        <div style="text-align:center;">
+          <h1>Sign-In now</h1>
+        </div>
+        <hr>
+      <div class="input">
+         <label for="name" >Username:</label>
+         <input type="text" id="name" placeholder="Write your name" value="shivi123" required>
+      </div>
+       <div class="input">
+         <label for="password">Password:</label>
+         <input type="password"  id="password" placeholder="password" value="4312" required>
+       </div>
+       <br>
+         <input type="submit">
+</form>
+    
+</body>
+</html>

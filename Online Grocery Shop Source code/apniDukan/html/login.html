@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="abc.css">
+     <title>Register</title>
+       <!--<script>
+        alert("Welcome");
+        </script>-->
+    </head>
+ <body>
+    <div class="form-box">
+    <h1 style="text-align:center;">Register yourself</h1>
+    <hr>
+    <form action ="databaseconn.php" method="POST">
+    <div class="input">
+      <label for="name">Username:</label>  
+      <input type="text" id="name" name="name" value="shivi123" placeholder="Write your name" required>
+    </div>
+    <div class="input">
+      <label for="phone">Mobile no:</label>
+      <input type="tel" id="phone"  name="phone" value="1234567890" placeholder="Enter mobile no" required>
+   </div>
+   <div class="input">  
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" value="shivi@gmail.com" placeholder="Enter your e-mail id" required>
+   </div>
+  
+<div class="input">
+   <label for="password">Password:</label>
+   <input type="password" id="password" name="password" value="4312" placeholder="password" required>
+</div>
+<div class="input">
+    <input type="submit"  value="Register" >
+</div>    
+</form>
+</div>
+
+</body>
+</html>
+
+
